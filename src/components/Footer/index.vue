@@ -2,7 +2,7 @@
   <footer>
     <div class="power" v-show="!store.playerState">
       <span
-        >&copy;&nbsp;2007-&nbsp;{{ fullYear }}&nbsp;
+        >&copy;&nbsp;2007&nbsp;-&nbsp;{{ fullYear }}&nbsp;
         <a href="https://www.wulintang.cn" target="_blank">南通伍林堂文化传播有限公司</a>&nbsp;版权所有
       </span>
       <!-- 以下信息请不要修改哦 -->
@@ -16,7 +16,11 @@
       >&nbsp;&amp;
       <!-- 站点备案 -->
       <a href="https://beian.miit.gov.cn" target="_blank"
-        >豫ICP备2022018134号-1</a
+        >苏ICP备2021008246号-9</a
+      >&nbsp;&amp;
+      <!-- 网案备案 -->
+      <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32061102000200" target="_blank"
+        >苏公网安备32061102000200号</a
       >
     </div>
     <div class="lrc" v-show="store.playerState">
