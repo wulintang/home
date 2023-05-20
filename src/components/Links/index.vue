@@ -33,7 +33,7 @@ import { Icon } from "@vicons/utils";
 import {
   Link,
   Sitemap,
-  Shield,
+  Stream,
   Cloud,
   Compass,
   Database,
@@ -54,7 +54,7 @@ let linksData = [
     link: "https://www.ccwadj.com/server/",
   },
   {
-    icon: Shield,
+    icon: Stream,
     name: "负载均衡",
     link: "https://www.ccwadj.com/loadbalance/",
   },
