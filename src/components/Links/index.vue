@@ -44,9 +44,9 @@ import {
 // 建议不要超出6个，若需要超出请自行调整样式
 let linksData = [
   {
-    icon: Blog,
-    name: "博客",
-    link: "https://blog.imsyy.top/",
+    icon: compass,
+    name: "官网",
+    link: "https://www.ccwadj.cn/",
   },
   {
     icon: Cloud,
