@@ -44,12 +44,12 @@ import {
 // 建议不要超出6个，若需要超出请自行调整样式
 let linksData = [
   {
-    icon: Compass,
+    icon: Blog,
     name: "官网",
     link: "https://www.ccwadj.com/",
   },
   {
-    icon: Globe,
+    icon: Cloud,
     name: "服务器",
     link: "https://www.ccwadj.com/server/",
   },
