@@ -46,12 +46,12 @@ let linksData = [
   {
     icon: Compass,
     name: "官网",
-    link: "https://www.ccwadj.cn/",
+    link: "https://www.ccwadj.com/",
   },
   {
-    icon: Cloud,
-    name: "网盘",
-    link: "https://pan.imsyy.top/",
+    icon: Globe,
+    name: "服务器",
+    link: "https://www.ccwadj.com/server/",
   },
   {
     icon: CompactDisc,
