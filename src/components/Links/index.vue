@@ -32,19 +32,19 @@ import { ref } from "vue";
 import { Icon } from "@vicons/utils";
 import {
   Link,
-  Blog,
-  CompactDisc,
+  Sitemap,
+  Shield,
   Cloud,
   Compass,
-  Book,
-  Fire,
+  Database,
+  Globe,
 } from "@vicons/fa";
 
 // 网站链接数据
 // 建议不要超出6个，若需要超出请自行调整样式
 let linksData = [
   {
-    icon: Blog,
+    icon: Compass,
     name: "官网",
     link: "https://www.ccwadj.com/",
   },
@@ -54,24 +54,24 @@ let linksData = [
     link: "https://www.ccwadj.com/server/",
   },
   {
-    icon: CompactDisc,
-    name: "音乐",
-    link: "https://music.imsyy.top/",
+    icon: Shield,
+    name: "负载均衡",
+    link: "https://www.ccwadj.com/loadbalance/",
   },
   {
-    icon: Compass,
-    name: "起始页",
-    link: "https://nav.imsyy.top/",
+    icon: Sitemap,
+    name: "对象存储",
+    link: "https://www.ccwadj.com/storage/",
   },
   {
-    icon: Book,
-    name: "网址集",
-    link: "https://web.imsyy.top/",
+    icon: Database,
+    name: "云数据库",
+    link: "https://www.ccwadj.com/database/mysql/",
   },
   {
-    icon: Fire,
-    name: "今日热榜",
-    link: "https://hot.imsyy.top/",
+    icon: Globe,
+    name: "域名注册",
+    link: "https://www.ccwadj.com/domain/",
   },
 ];
 
