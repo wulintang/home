@@ -4,23 +4,23 @@
       <span
         >&copy;&nbsp;2007&nbsp;-&nbsp;{{ fullYear }}&nbsp;
         <a href="https://www.wulintang.cn" target="_blank">南通伍林堂文化传播有限公司</a>&nbsp;版权所有
-      </span>
+      </span>&nbsp;&amp;&nbsp;
+      <!-- 站点备案 -->
+      <a href="https://beian.miit.gov.cn" target="_blank"
+        >苏ICP备2021008246号-9</a
+      >&nbsp;
+      <!-- 网案备案 -->
+      <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32061102000200" target="_blank"
+        >苏公网安备32061102000200号</a
+      >&nbsp;&amp;  
       <!-- 以下信息请不要修改哦 -->
       <span class="hidden"
-        >&nbsp;&amp;&nbsp;Made&nbsp;by&nbsp;<a
+        >Made&nbsp;by&nbsp;<a
           :href="config.github"
           target="_blank"
         >
           {{ config.author }}
         </a></span
-      >&nbsp;&amp;
-      <!-- 站点备案 -->
-      <a href="https://beian.miit.gov.cn" target="_blank"
-        >苏ICP备2021008246号-9</a
-      >&nbsp;&amp;
-      <!-- 网案备案 -->
-      <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32061102000200" target="_blank"
-        >苏公网安备32061102000200号</a
       >
     </div>
     <div class="lrc" v-show="store.playerState">
