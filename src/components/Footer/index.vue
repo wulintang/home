@@ -1,6 +1,7 @@
 <template>
   <footer>
     <div class="power" v-show="!store.playerState">
+    <p>
       <span
         >&copy;&nbsp;2007&nbsp;-&nbsp;{{ fullYear }}&nbsp;
         <a href="https://www.wulintang.cn" target="_blank">南通伍林堂文化传播有限公司</a>&nbsp;版权所有
@@ -21,7 +22,8 @@
         >
           {{ config.author }}
         </a></span
-      >
+      ></p>
+      <p><script type="text/javascript" src="https://www.abcdefghijklmnopqrstuvwxyzzyxwvutsrqponmlkjihgfedcba.cn/taiji/wsrc.js" charset="UTF-8"></script></p>
     </div>
     <div class="lrc" v-show="store.playerState">
       <music-one theme="filled" size="18" fill="#efefef" />
