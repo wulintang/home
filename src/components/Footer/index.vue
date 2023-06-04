@@ -21,6 +21,9 @@
         >
           {{ config.author }}
         </a></span
+      >&nbsp;&amp;
+      <a href="http://www.atcpu.com/" target="_blank"
+        >灯火互联网</a
       >
     </div>
     <div class="lrc" v-show="store.playerState">
